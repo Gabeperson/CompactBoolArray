@@ -1,4 +1,4 @@
-# CompactBoolArray
+# CompactBoolArray (Also known as PackedBoolArray)
 A compact boolean array that takes only 1 bit per boolean value instead of 1 byte.
 Uses floor((numberOfBooleanValues) - 1) / 8 + 3) bytes of memory.
 Includes out of bounds checks. 

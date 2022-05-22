@@ -1,5 +1,5 @@
 # CompactBoolArray
-A compact boolean array that takes only 1 bit instead of 1 byte per value.
+A compact boolean array that takes only 1 bit per boolean value instead of 1 byte.
 Uses floor((numberOfBooleanValues) - 1) / 8 + 3) bytes of memory.
 Includes out of bounds checks. 
 Starts being more memory efficient than boolean[] at 3-4 boolean values and increases in memory usage efficiency the more indexes there are. 

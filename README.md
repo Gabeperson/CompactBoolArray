@@ -1,6 +1,6 @@
 # CompactBoolArray
 A compact boolean array that takes only 1 bit instead of 1 byte per value.
-Uses floor((numberOfBits)-1)/8+3) bytes of memory.
+Uses floor((numberOfBooleanValues) - 1) / 8 + 3) bytes of memory.
 Includes out of bounds checks. 
 
 ## Methods

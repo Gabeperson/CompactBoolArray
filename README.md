@@ -2,7 +2,7 @@
 A compact boolean array that takes only 1 bit instead of 1 byte per value.
 Uses floor((numberOfBooleanValues) - 1) / 8 + 3) bytes of memory.
 Includes out of bounds checks. 
-Starts being more memory efficient than boolean[] at ~3-4 boolean values. 
+Starts being more memory efficient than boolean[] at 3-4 boolean values. 
 
 ## How to use in your code
 Copy the CompactBoolArray.java file into your package folder and create a new CompactBoolArray class.

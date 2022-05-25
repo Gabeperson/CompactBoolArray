@@ -4,8 +4,8 @@ Uses floor((numberOfBooleanValues) - 1) / 8 + 3) bytes of memory.
 Includes out of bounds checks. 
 Starts being more memory efficient than boolean[] at 3-4 boolean values and increases in memory usage efficiency the more indexes there are. 
 
-## How to use in your code
-Copy the CompactBoolArray.java file into your package folder and create a new CompactBoolArray class.
+## Note
+This is just here for inspiration and uses essentially a custom implementation of BitSet. If you are using this in production-grade applications, you should develop your own class using BitSet instead.
 
 ## Methods
 ### set(int index, boolean value)
